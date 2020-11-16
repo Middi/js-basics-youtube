@@ -17,3 +17,7 @@ code {
     font-weight: 600;
     letter-spacing: .2rem;
 }
+
+p {
+    padding: 30px 0;
+}
