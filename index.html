@@ -12,11 +12,21 @@
 
         <h1>JS Basics</h1>
         <h4>Learn Javascript</h4>
-        <p>Open the console with <code>ALT+CMD+I</code> on mac or <code>Shift+CTRL+I</code> on pc</p>
-
-        <label for="our_value">Our Value</label>
-        <input id="our_value" type="password">
-        <button id="submit">Submit</button>
+        <p>Open the console with <code>Option+CMD+I</code> on mac or <code>Shift+CTRL+I</code> on pc</p>
+        
+        <div class="input-cont">
+            <label for="age">Age: </label>
+            <input id="age" type="number">
+        
+            <input type="checkbox" name="robot" id="robot"/>
+            <label for="robot"><small>I am not a robot</small></label>
+            <button id="submit" class="btn">Submit</button>
+        </div>
+        
+        <div class="enter-btn">
+            <p id="verify" class="verify hidden">Please check the box.</p>
+            <a id="btn" class="btn hidden" href="https://richardmiddleton.me">Enter</a>
+        </div>
     </main>
 
     <!-- Javascript goes here-->

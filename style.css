@@ -21,3 +21,48 @@ code {
 p {
     padding: 30px 0;
 }
+
+.input-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-size: 22px;
+    padding: 0 10px;
+}
+
+input[type="number"] {
+    border: 2px solid #234382;
+    height: 20px;
+    width: 40px;
+    padding: 8px;
+    margin: 0 10px;
+}
+
+.enter-btn {
+    margin: 50px;
+}
+
+.verify {
+    color: red;
+}
+
+.btn {
+    background: #234382;
+    padding: 14px 30px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 0 10px;
+}
+
+.btn:hover {
+    background: #193368;
+}
+
+.hidden {
+    display: none;
+}
